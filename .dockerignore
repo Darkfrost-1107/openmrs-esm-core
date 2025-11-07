@@ -1,0 +1,17 @@
+node_modules
+.git
+.github
+dist
+coverage
+*.log
+.DS_Store
+.env
+.env.local
+.vscode
+.idea
+*.md
+!README.md
+e2e/results
+e2e/reports
+playwright-report
+test-results
