@@ -27,4 +27,4 @@ RUN yarn build --concurrency 1 || yarn setup
 EXPOSE 8080
 
 # Comando por defecto para desarrollo
-CMD ["yarn", "run:shell"]
+CMD ["yarn", "run:shell", "--allowed-hosts", "all", "--host", "0.0.0.0"]
